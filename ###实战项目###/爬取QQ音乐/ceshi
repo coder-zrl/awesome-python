@@ -1,0 +1,8 @@
+music_info_list = []
+name = input('请输入歌手或歌曲：')  # input函数 输入 做用户交互 使用的
+page = input('请输入页码：')
+num = input('请输入当前页码需要返回的数据条数：')
+url = f'https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p={page}&n={num}&w={name}'
+response = requests.get(url).text  # 获取到的是字符串
+# 将response切分成json格式 类似字典 但是现在还是字符串
+print(response)

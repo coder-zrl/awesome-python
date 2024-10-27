@@ -1,0 +1,5 @@
+fp=open('Itest.txt','w+')
+fp.write('欢迎大家')
+txt=fp.read()
+print(txt)
+fp.close()

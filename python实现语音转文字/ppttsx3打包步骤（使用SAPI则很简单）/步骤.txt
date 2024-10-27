@@ -1,0 +1,2 @@
+①将文件夹拷贝到目录下
+②命令提示符里进入根目录后运行pyinstaller --additional-hooks-dir hooks -F -i xxxxxxxx

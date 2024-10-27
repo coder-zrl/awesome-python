@@ -1,0 +1,1 @@
+#data=response.content.decode('utf-8','ignore')

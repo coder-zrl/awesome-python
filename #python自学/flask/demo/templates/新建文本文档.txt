@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+</head>
+<body>
+    <p>绝对值：{{ user.age | abs }}</p>
+    <p>默认值：{{ user.gender or 'male'}}</p>
+    <p>转义：{{ user.comment }}</p>
+</body>
+</html>
